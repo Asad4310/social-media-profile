@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social Media Executive</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4; /* Light background */
+            color: #333; /* Dark text */
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh; /* Ensure full viewport height */
+        }
+
+        header {
+            background-color: #fff; /* White header */
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 2em;
+        }
+
+        main {
+            flex: 1; /* Allow main to take up available space */
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center; /* Center content horizontally */
+        }
+
+        .profile-image {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .info {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .social-links {
+            display: flex;
+            gap: 20px;
+        }
+
+        .social-links a {
+            display: inline-block;
+            padding: 10px 15px;
+            background-color: #fff;
+            color: #333;
+            text-decoration: none;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            transition: background-color 0.3s ease; /* Smooth transition */
+        }
+
+        .social-links a:hover {
+            background-color: #eee; /* Light hover effect */
+        }
+        footer {
+            background-color: #333; /* Dark footer */
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+        /*Responsive Design*/
+        @media (max-width: 600px) {
+            .social-links{
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>[Your Name]</h1>
+    </header>
+
+    <main>
+        <img class="profile-image" src="your-profile-image.jpg" alt="Profile Picture">
+
+        <div class="info">
+            <h2>Social Media Executive</h2>
+            <p>Passionate about building online communities and driving engagement.</p>
+            <p>Experienced in [List key skills/platforms, e.g., content creation, social media strategy, analytics, etc.].</p>
+        </div>
+
+        <div class="social-links">
+            <a href="your-linkedin-profile" target="_blank">LinkedIn</a>
+            <a href="your-twitter-profile" target="_blank">Twitter</a>
+            <a href="your-instagram-profile" target="_blank">Instagram</a>
+            <a href="your-portfolio-website" target="_blank">Portfolio</a>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; [Year] [Your Name]</p>
+    </footer>
+
+</body>
+</html>
